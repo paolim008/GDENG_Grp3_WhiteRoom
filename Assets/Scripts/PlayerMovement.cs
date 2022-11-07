@@ -64,7 +64,8 @@ public class PlayerMovement : MonoBehaviour
     controller.Move(velocity * Time.deltaTime);
 
         //Sound Effects
-
+        if (footStepSound != null)
+        {
             if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W) && isGrounded)
             {
                 nextFootstep -= Time.deltaTime;
@@ -74,6 +75,8 @@ public class PlayerMovement : MonoBehaviour
                     nextFootstep += footStepDelay;
                 }
             }
+        }
+
     }
 
 }
