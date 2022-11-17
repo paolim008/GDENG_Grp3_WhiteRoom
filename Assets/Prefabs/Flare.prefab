@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 312491896433299669}
   - component: {fileID: 8465710451215327830}
   - component: {fileID: 7921351355905613958}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,7 +300,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 9c9426cf5cedd4867a1d2e61025820af, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 8326123199967416978}
   - component: {fileID: 4326532146139871551}
   - component: {fileID: 386159669871580908}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 8246637848767260083}
   - component: {fileID: 8246637848767260082}
   - component: {fileID: 1044252106417927914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
